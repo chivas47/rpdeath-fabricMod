@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rpdeathfabric",
+  "version": "1.0.1",
+  "name": "rpdeathfabric",
+  "description": "Makes death more meaningful",
+  "authors": [
+    "chivas477"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/rpdeath",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rpdeathfabric.RpdeathfabricMod"
+    ],
+    "client": [
+      "net.rpdeathfabric.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "mod_elements": [
+    {
+      "name": "Deathscreen",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deathscreen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rpdeathfabric/client/gui/DeathscreenOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathscreenDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deathscreen_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/rpdeathfabric/procedures/DeathscreenDisplayOverlayIngameProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Deathpunish",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "deathpunish",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rpdeathfabric/procedures/DeathpunishProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rpdeathfabric",
+    "modName": "rpdeathfabric",
+    "version": "1.0.1",
+    "description": "Makes death more meaningful",
+    "author": "chivas477",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/rpdeath",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "chivas477",
+    "modElementsPackage": "net.rpdeathfabric",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
